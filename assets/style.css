@@ -1,0 +1,85 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header styles */
+.header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.header nav ul li {
+    margin: 0 15px;
+}
+
+.header nav ul li a {
+    color: #fff;
+}
+
+.header nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+}
+
+.about, .projects, .contact {
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Projects styles */
+.projects .project {
+    background: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Footer styles */
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .header nav ul {
+        flex-direction: column;
+    }
+}
